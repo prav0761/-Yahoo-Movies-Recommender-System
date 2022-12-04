@@ -1,7 +1,8 @@
 # du
 metric= (Predicted -measured/measured)*100
 
-Servicepoints without significant outages ( critera if the value is more than 100 then it can be considered as outage)
+Servicepoints without significant outages ( critera if the value is more than 100 then it can be considered as significant or heavy 
+outage)
 
 
 Service points without significant outage
