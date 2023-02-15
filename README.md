@@ -17,3 +17,5 @@ To run 'RUN_MLP_Rec.py' Function use following command in your terminal
 
 
 python3 Run_Rec.py --train train_path --test test_path --features 15 --hidden 64 --learning-rate 0.001 --batch-size 256 --epochs 100 --patience 10
+
+Results are stored in your metrics.log file in directory
