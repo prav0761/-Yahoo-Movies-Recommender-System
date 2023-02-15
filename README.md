@@ -11,4 +11,9 @@ LOWEST MSE- 0.94
 ![MLP_val_train_loss](https://user-images.githubusercontent.com/93844635/210680080-768381ce-cd65-4af3-8779-41f1f03ac03e.PNG)
 
 To run 'RUN_MLP_Rec.py' Function use following command in your terminal
-!python3 Run_Rec.py --train 'ydata-ymovies-user-movie-ratings-train-v1_0.txt.gz' --test 'ydata-ymovies-user-movie-ratings-test-v1_0.txt.gz' --features 15 --hidden 64 --learning-rate 0.001 --batch-size 256 --epochs 100 --patience 10
+
+
+
+
+
+python3 Run_Rec.py --train train_path --test test_path --features 15 --hidden 64 --learning-rate 0.001 --batch-size 256 --epochs 100 --patience 10
