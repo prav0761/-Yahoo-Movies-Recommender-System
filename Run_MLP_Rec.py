@@ -5,7 +5,7 @@
 
 
 import pandas as pd
-#!pip install -U -q git+https://github.com/sparsh-ai/recochef.git
+!pip install -U -q git+https://github.com/sparsh-ai/recochef.git
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas
