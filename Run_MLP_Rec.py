@@ -5,7 +5,7 @@
 
 
 import pandas as pd
-!pip install -U -q git+https://github.com/sparsh-ai/recochef.git
+#!pip install -U -q git+https://github.com/sparsh-ai/recochef.git
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas
@@ -14,7 +14,7 @@ from torch import nn
 from torch import optim
 from torch.nn import functional as F 
 from torch.optim.lr_scheduler import _LRScheduler
-from recochef.utils.iterators import batch_generator
+#from recochef.utils.iterators import batch_generator
 import logging
 import math
 import copy
@@ -74,8 +74,8 @@ def _preprocess_data(X):
 # In[3]:
 
 
-from recochef.utils.iterators import batch_generator
-from recochef.models.embedding import EmbeddingNet
+#from recochef.utils.iterators import batch_generator
+#from recochef.models.embedding import EmbeddingNet
 class MLP(nn.Module):
     def __init__(self, embedding_size, hidden_size,num_users,num_items):
         super(MLP, self).__init__()
