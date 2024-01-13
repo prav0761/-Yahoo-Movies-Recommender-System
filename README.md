@@ -1,4 +1,34 @@
-Vanilla Matrix Factorization val loss
+Yahoo-Movies-Recommender-System
+
+Repository Structure
+--------------------
+
+    |- Run_MLP_Rec.py           #Script for running the MLP model
+    |- Vanilla_Matrix_Factorization.py # Script for running Matrix Factorization Model
+    |- image_transform# scripts for image augmentations
+    |- item_map.pkl   # item_map.pkl file (unique item_map values)
+    |- metrics.log # Script for logging metrics
+    |- pre_process.py  # Pre-processing script
+    |- run_on_flask.py  # Script for Flask application
+    |- trained_model.pth          # Trained Model File
+    |- user_map.pkl    # user_map.pkl
+    |- main.py   # scripts for pretraining on flickr30k(main process)
+    |- metrics.py # scripts for loss functions, optimizer functions
+    |- models.py       # backbone models and finetune models
+    |- LICENSE          # license
+    |- README.md        # the top level description of content and commands to reproduce results, data download instructions
+    |- train_fns.py  # contains scripts for training, validation functions
+    |- utils.py #   # scripts for helper functions and metrics calculation code
+
+
+
+## GOAL
+
+The goal is to build a recommender system and provide recommendations of Yahoo movies to users based on the interaction history of users. So initially I built a matrix factorization model as a baseline and then built a map model with embeddings and improved the model's predictions compared to the baseline model. The model outputs a rating given the user-movie interaction history
+
+This project uses it to build a better recommendation model compared to the base model which reduces inconsistency in movie recommendation
+
+Vanilla Matrix Factorization value loss
 
 LOWEST MSE- 1.53
 
